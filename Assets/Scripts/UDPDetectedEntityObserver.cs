@@ -16,7 +16,6 @@ public class UDPDetectedEntityObserver : UDPMessageObserver
         }
         catch (Exception ex)
         {
-            Debug.LogError("Failed to deserialize message: " + ex.Message);
         }
     }
 }

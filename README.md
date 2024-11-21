@@ -49,13 +49,13 @@
 <h4>Monitor</h4>
 <ul dir="auto">
 <li><code>MessageDisplay</code> - Manages the display of messages in a scroll view.</li>
-<li><code>UDPDetectedEntityObserver</code> - Inherits <code>UDPMessageObserver</code>, check if message is Detected Entity message, and display it using <code>MessageDisplay</code> if so</li>
+<li><code>UDPDetectedEntityObserver</code> - Inherits <code>UDPMessageObserver</code>, checks if message is Detected Entity message, and displays it using <code>MessageDisplay</code> if so</li>
 </ul>
 <h4>UDP Communication</h4>
 <ul dir="auto">
 <li><code>UDPSender</code> - Sends UDP messages to a remote endpoint, getting the target IP address and Port from config</li>
 <li><code>UDPReciever</code> - Receives UDP messages and invokes an event when data is received, getting the target Port from config</li>
-<li><code>UDPMessageObserver</code> - Abstract class that represnt observer which listenes to UDP messages, and use it</li>
+<li><code>UDPMessageObserver</code> - Abstract class representing observer which listenes to UDP messages, and use it</li>
   
 </ul>
 <h4>Config</h4>

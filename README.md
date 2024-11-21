@@ -20,8 +20,9 @@
 <li>In Unity Editor, Select <code>File -> Build Settings</code></li>
 <li>In Platforms window, Select <code>Windows, Mac, Linux</code> (tested on Windows only) from Platforms</li>
 <li>Select your platform on <code>Target Platform</code> Dropdoown list</li>
+<li>Check <code>Scenes/Simulation</code> in Scenes In Build and uncheck other scenes</li>
 <li>Press <code>Build And Run</code> and select Simulation folder</li>
-<li>The build will be inside Build folder, and will run automatically</li>
+<li>The build will be inside <code>Build/Simulation</code>, and will run automatically</li>
 </ul>
 
 <h4 dir="auto">Build (Monitor):</h4>
@@ -31,8 +32,9 @@
 <li>In Unity Editor, Select <code>File -> Build Settings</code></li>
 <li>In Platforms window, Select <code>Windows, Mac, Linux</code> (tested on Windows only) from Platforms</li>
 <li>Select your platform on <code>Target Platform</code> Dropdoown list</li>
-<li>Press <code>Build And Run</code> and select Simulation folder</li>
-<li>The build will be inside Build folder, and will run automatically</li>
+<li>Check <code>Scenes/Monitor</code> in Scenes In Build and uncheck other scenes</li>
+<li>Press <code>Build And Run</code> and select Monitor folder</li>
+<li>The build will be inside <code>Build/Monitor</code>, and will run automatically</li>
 </ul>
 
 <h2>Code Design</h2>

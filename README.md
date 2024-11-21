@@ -42,7 +42,7 @@
 <li><code>SimulationManagerUI</code> - Manages the user interface for the simulation</li>
 <li><code>AutonomousVehicle</code> - Conrols the movement of the test car, moving it along a set of waypoints</li>
 <li><code>ObjectDetector</code> - Attached to a camera, detecting entities visible and within the camera's frustum. Requires detectable entities to have a collider, and be on a selected Detection Layer, using their tag for categorizing</li>
-<li><code>DetectionObserver</code> - observes an <code>ObjectDetector</code> and sends detection data via UDP</li>
+<li><code>DetectionObserver</code> - Observes an <code>ObjectDetector</code> and sends detection data via UDP</li>
 </ul>
 <h4>Monitor</h4>
 <ul dir="auto">
@@ -58,7 +58,7 @@
 </ul>
 <h4>Config</h4>
 <ul dir="auto">
-<li><code>ConfigLoader</code> - loads configuration data from a JSON file</li>
+<li><code>ConfigLoader</code> - Loads configuration data from a JSON file</li>
 <li><code>ConfigData</code> - Respresents Config structure</li>
 </ul>
 

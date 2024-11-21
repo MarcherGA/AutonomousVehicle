@@ -14,7 +14,7 @@ public class UDPDetectedEntityObserver : UDPMessageObserver
             string result = $"Detected entity: {detectedEntityMessage.entityType} Position: {detectedEntityMessage.entityPosition} Time Detected: {detectedEntityMessage.detectionTime} Sensor Position: {detectedEntityMessage.sensorPosition}";
             _messageDisplay.EnqueueMessage(result);
         }
-        catch (Exception ex)
+        catch
         {
         }
     }

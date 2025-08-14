@@ -1,3 +1,8 @@
+<h1>AutonomousVehicle</h1>
+<h4 dir="auto">Description:</h4>
+Autonomous Vehicle Simulator, including driving along pre made route, object detection, and monitor logging all the detected objects details.
+<img alt="thumbnail" src="https://github.com/MarcherGA/AutonomousVehicle/blob/main/Assets/thumbnail.png?raw=true" height="500" >
+
 <h2>Setup</h2>
 <h4 dir="auto">Requirements:</h4>
 <ul dir="auto">
